@@ -13,6 +13,7 @@ body {
   overflow: hidden;
   min-height: 100vh;
   background: rgb(194, 141, 194);
+  background: rgb(41, 2, 41);
   background-image: linear-gradient(to right, #fff 2px, transparent 2px),
     linear-gradient(to top, #fff 2px, transparent 2px);
   background-position: center;
