@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./build/*.html'],
+  content: ["./index.html",
+    "./src/**/*.{ts,tsx,js,jsx,html}",
+  ],
   theme: {
     extend: {
-      backgroundImage: {
-        'custom': 'linear-gradient(to right, #fff 2px, transparent 2px), linear-gradient(to top, #fff 2px, transparent 2px);',
-      },
-      backgroundSize: {
-        'size': '600px 600px',
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
+
