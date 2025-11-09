@@ -1,7 +1,23 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/700.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.text-shadow {
-  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+/* Custom utilities example */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5);
+  }
+  .customized{
+    background-image: 
+      linear-gradient(to right, #fff 2px, transparent 2px), 
+      linear-gradient(to top, #fff 2px, transparent 2px);
+    background-size: 85px 85px;
+    background-position: center;
+  }
+  .bg-color{
+    background-color: #00c8ff1a;
+  }
 }
