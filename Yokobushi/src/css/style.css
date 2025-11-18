@@ -12,24 +12,25 @@ body {
   justify-content: center;
   overflow: hidden;
   min-height: 100vh;
-  background: rgb(194, 141, 194);
-  background: rgb(41, 2, 41);
-  background-image: linear-gradient(to right, #fff 2px, transparent 2px),
-    linear-gradient(to top, #fff 2px, transparent 2px);
+  background: #00c8ff1a;
+  background-image: 
+    linear-gradient(to right, #fff 2px, transparent 2px),
+    linear-gradient(to bottom, #fff 2px, transparent 2px);
   background-position: center;
-  background-size: 600px 600px;
+  background-size: 85px 85px;
 }
 div.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 598px;
-  min-height: 598px;
-  transform: translate(1px, -1px);
+  width: 592px;
+  height: 592px;
+  transform: translate(1px, 1px);
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.7);
   box-shadow: inset -1px -2px 30px rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(2px);
   padding: 40px 40px;
   transition: all 1000ms ease-in-out;
@@ -38,7 +39,7 @@ div.wrapper:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 div.wrapper #button {
-  font-family: "Play";
+  font-family: "DM+Sans";
   font-size: 1.2rem;
   font-weight: 400;
   text-shadow: 1px 0 1px rgba(255, 255, 255, 0.5);
